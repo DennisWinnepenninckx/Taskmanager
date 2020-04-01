@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${page} + 'page | Taskmanager'"></title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+<header th:insert="index.html :: header"></header>
+<main>
+    <table id="Desc">
+        <tr>
+            <td><b>Title:</b></td>
+            <td th:text="${Task?.title}"></td>
+        </tr>
+        <tr>
+            <td><b>Description:</b></td>
+            <td th:text="${Task?.description}"></td>
+        </tr>
+        <tr>
+            <td><b>Due date:</b></td>
+            <td th:text="${Task?.dateString}"></td>
+        </tr>
+    </table>
+    <br><br><br>
+    <h2>Add a subTask!</h2>
+    <form th:action="@{/tasks/__${Task.uuid}__/sub/create}" method="post" th:object="${subTaskDTO}">
+        <div>
+            <label for="title">Title:</label>
+            <input type="text" th:field="*{title}">
+            <p th:errors="*{title}"></p>
+
+        </div>
+        <div>
+            <label for="description">Description: </label>
+            <input type="text" th:field="*{description}">
+            <p th:errors="*{description}"></p>
+
+        </div>
+        <input type="submit" value="New task">
+    </form>
+    <br><br><br>
+    <span th:if="${not #lists.isEmpty(subTasks)}">
+        <ul th:each="Task : ${subTasks}">
+                <li th:text="${Task}"></li>
+            <hr>
+        </ul>
+    </span>
+    <span th:if="${#lists.isEmpty(subTasks)}">
+        <p style="font-size: 3rem">No subtasks here</p>
+    </span>
+    <footer th:insert="index.html :: footer"></footer>
+
+</main>
+</body>
+</html>

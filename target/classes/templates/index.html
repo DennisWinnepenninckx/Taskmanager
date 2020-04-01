@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${page} + 'page | Taskmanager'"></title>
+    <link rel="stylesheet" th:href="@{css/reset.css}">
+    <link rel="stylesheet" th:href="@{css/main.css}">
+</head>
+<body>
+<header th:fragemnt="header">
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/tasks">Overview</a></li>
+            <li><a href="/tasks/new">Add Task</a></li>
+        </ul>
+    </nav>
+    <h1 th:text="'Taskmanager '+${page} + 'page'"></h1>
+</header>
+<main>
+    <section id="section">
+        <img th:src="@{img/task.png}" alt="TASK" style="float:right;padding-left: 15px;width: 25%">
+        <p>
+            Lorem ipsum dolor sit amet, <b>consectetur</b> adipisicing elit. Commodi eius expedita illo molestias natus nemo odio
+            quos? Debitis, dignissimos dolorum eius enim est exercitationem in, inventore magnam <b>nemo</b> nihil nobis odit
+            officiis, quibusdam quod ratione saepe sint. Adipisci blanditiis dignissimos in molestias odit sequi sint
+            temporibus unde. Ad <b>Lorem.</b> alias aliquid dolores earum eos eum, harum.
+        </p>
+    </section>
+</main>
+<footer th:fragment="footer">Dennis Inc.</footer>
+</body>
+</html>

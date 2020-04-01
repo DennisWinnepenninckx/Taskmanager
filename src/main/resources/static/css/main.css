@@ -1,0 +1,80 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: linear-gradient(to bottom, #a89d9a,#ffffff);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+nav ul {
+    background-color: #beb2ae;
+    display: flex;
+    flex-display: row;
+    align-content: space-evenly;
+    font-size: 2em;
+}
+nav ul li{
+    text-align: center;
+    width: 33%;
+}
+nav ul li a{
+    display: block;
+    padding: 15px 0;
+}
+nav ul li a:hover{
+    background-color: #a1a1a1;
+    color:black;
+}
+h1{
+    padding:25px 0px ;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+/* MAIN */
+main{
+    width: 50%;
+    margin: auto;
+    font-size: 1.2em;
+    text-align: justify;
+}
+/* OVERVIEW */
+.task{font-size: 1.2em}
+.task{ text-decoration: underline;}
+.edit {font-weight: bolder}
+/* EDIT */
+form{
+    margin: auto;
+    width: 50%;
+}
+form div{
+    padding: 15px 0;
+}
+form div label{
+    text-align: left;
+    width: 100%;
+    font-size: 1.2em;
+}
+form div input{
+    width: 100%;
+    padding: 5px;
+}
+#Desc{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+#Desc table tr td {
+    padding: 15px 0;
+}
+h2{
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 15px;
+}
+#section{padding-top: 25px;}
+footer{clear:both;}
+#Desc{
+    text-align: left;
+}
+#Desc tr td{padding: 15px}

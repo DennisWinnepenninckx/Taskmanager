@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${page} + 'page | Taskmanager'"></title>
+    <link rel="stylesheet" th:href="@{../css/reset.css}">
+    <link rel="stylesheet" th:href="@{../css/main.css}">
+</head>
+<body>
+<header th:insert="index.html :: header"></header>
+<main>
+
+    <ul th:each="Task : ${Tasks}">
+        <a class="task" th:href="@{/tasks/__${Task.uuid}__}">
+            <li th:text="${Task}"></li>
+        </a>
+        <a class="edit" th:href="@{/tasks/editPage/__${Task.uuid}__}"> Edit</a>
+        <hr>
+    </ul>
+    <span th:if="${#lists.isEmpty(Tasks)}">
+        <p style="font-size: 3rem">No tasks left to do</p>
+    </span>
+</main>
+<footer th:insert="index.html :: footer"></footer>
+
+</body>
+</html>

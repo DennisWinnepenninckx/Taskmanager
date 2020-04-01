@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="99f8fe85-5b9b-4785-bafa-cf7ca855bbbd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/dennis/taskmanager/model/SubTask.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/dennis/taskmanager/model/Task.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YIsDBoTa457hUivfw5xibWcext" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2TI\Semester 2\InternetProgramming minor\labo3\taskmanager\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.TaskmanagerApplication">
+    <configuration name="TaskmanagerTaskRepoTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taskmanager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dennis.taskmanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dennis.taskmanager" />
+      <option name="MAIN_CLASS_NAME" value="com.dennis.taskmanager.TaskmanagerTaskRepoTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskmanagerTaskTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taskmanager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dennis.taskmanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dennis.taskmanager" />
+      <option name="MAIN_CLASS_NAME" value="com.dennis.taskmanager.TaskmanagerTaskTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskmanagerTaskTests.setPastTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taskmanager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dennis.taskmanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dennis.taskmanager" />
+      <option name="MAIN_CLASS_NAME" value="com.dennis.taskmanager.TaskmanagerTaskTests" />
+      <option name="METHOD_NAME" value="setPastTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskmanagerTaskTests.testEmptyTitleTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taskmanager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dennis.taskmanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dennis.taskmanager" />
+      <option name="MAIN_CLASS_NAME" value="com.dennis.taskmanager.TaskmanagerTaskTests" />
+      <option name="METHOD_NAME" value="testEmptyTitleTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.dennis.taskmanager in taskmanager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taskmanager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dennis.taskmanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dennis.taskmanager" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskmanagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="taskmanager" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dennis.taskmanager.TaskmanagerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.com.dennis.taskmanager in taskmanager" />
+        <item itemvalue="JUnit.TaskmanagerTaskRepoTests" />
+        <item itemvalue="JUnit.TaskmanagerTaskTests" />
+        <item itemvalue="JUnit.TaskmanagerTaskTests.testEmptyTitleTask" />
+        <item itemvalue="JUnit.TaskmanagerTaskTests.setPastTask" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99f8fe85-5b9b-4785-bafa-cf7ca855bbbd" name="Default Changelist" comment="" />
+      <created>1582641320518</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582641320518</updated>
+      <workItem from="1582641327331" duration="6422000" />
+      <workItem from="1582650187854" duration="852000" />
+      <workItem from="1582652641088" duration="28000" />
+      <workItem from="1582791486233" duration="1332000" />
+      <workItem from="1582794148920" duration="3299000" />
+      <workItem from="1582803765507" duration="18000" />
+      <workItem from="1582815482595" duration="43000" />
+      <workItem from="1582877795625" duration="225000" />
+      <workItem from="1582884048629" duration="4684000" />
+      <workItem from="1582902385944" duration="125000" />
+      <workItem from="1583245406492" duration="6825000" />
+      <workItem from="1583255756670" duration="3209000" />
+      <workItem from="1583489622706" duration="142000" />
+      <workItem from="1583827409695" duration="5000" />
+      <workItem from="1583829681760" duration="3444000" />
+      <workItem from="1583836570849" duration="601000" />
+      <workItem from="1583839545373" duration="1739000" />
+      <workItem from="1583841622568" duration="994000" />
+      <workItem from="1583843935015" duration="2859000" />
+      <workItem from="1583849491238" duration="5735000" />
+      <workItem from="1583857759207" duration="18000" />
+      <workItem from="1584456830713" duration="599000" />
+      <workItem from="1584618140914" duration="1353000" />
+      <workItem from="1584619531150" duration="7044000" />
+      <workItem from="1584696843720" duration="8739000" />
+      <workItem from="1584778443504" duration="7356000" />
+      <workItem from="1584798609239" duration="452000" />
+      <workItem from="1584990386303" duration="625000" />
+      <workItem from="1585046609750" duration="14750000" />
+      <workItem from="1585076818192" duration="1010000" />
+      <workItem from="1585085927583" duration="20000" />
+      <workItem from="1585135449310" duration="786000" />
+      <workItem from="1585735615115" duration="4767000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added DTO">
+      <created>1585049856764</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585049856765</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First TaskService test">
+      <created>1585050716682</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585050716682</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First TaskService test - Failing to check test run">
+      <created>1585050803211</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585050803211</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added @Test, Failing to check if test run">
+      <created>1585050906553</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585050906553</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added testGetTask">
+      <created>1585053595451</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585053595451</updated>
+    </task>
+    <task id="LOCAL-00006" summary="removed testGetTask">
+      <created>1585054052498</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585054052498</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added all tests">
+      <created>1585061378218</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585061378218</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added DTO" />
+    <MESSAGE value="First TaskService test" />
+    <MESSAGE value="First TaskService test - Failing to check test run" />
+    <MESSAGE value="Added @Test, Failing to check if test run" />
+    <MESSAGE value="Added testGetTask" />
+    <MESSAGE value="removed @Test" />
+    <MESSAGE value="removed testGetTask" />
+    <MESSAGE value="Added all tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added all tests" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="70" key="#Auto_Import" timestamp="1583851028400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="70" key="#Auto_Import/0.0.1536.824@0.0.1536.824" timestamp="1583851028400" />
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1584618547595">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584618547595" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584622770369">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1584622770369" />
+    <state x="2127" y="100" key="CommitChangelistDialog2" timestamp="1585061375559">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2127" y="100" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585061375559" />
+    <state x="2606" y="211" key="FileChooserDialogImpl" timestamp="1585085944396">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1584991471011" />
+    <state x="2606" y="211" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585085944396" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584620952813" />
+    <state x="2750" y="413" width="260" height="214" key="Github.ShareDialog" timestamp="1585046875966">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2750" y="413" width="260" height="214" key="Github.ShareDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585046875966" />
+    <state x="2587" y="225" key="Github.UntrackedFilesDialog" timestamp="1585046912321">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2587" y="225" key="Github.UntrackedFilesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585046912321" />
+    <state width="1493" height="163" key="GridCell.Tab.0.bottom" timestamp="1585751673305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="163" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585751673305" />
+    <state width="1877" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585061548268" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584626584185" />
+    <state width="1493" height="163" key="GridCell.Tab.0.center" timestamp="1585751673305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="163" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585751673305" />
+    <state width="1877" height="220" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585061548268" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584626584185" />
+    <state width="1493" height="163" key="GridCell.Tab.0.left" timestamp="1585751673304">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="163" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585751673304" />
+    <state width="1877" height="220" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585061548268" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584626584184" />
+    <state width="1493" height="163" key="GridCell.Tab.0.right" timestamp="1585751673305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="163" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585751673305" />
+    <state width="1877" height="220" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585061548268" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584626584185" />
+    <state width="1493" height="163" key="GridCell.Tab.1.bottom" timestamp="1585751673305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="163" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585751673305" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585061548263" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584626584185" />
+    <state width="1493" height="163" key="GridCell.Tab.1.center" timestamp="1585751673305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="163" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585751673305" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585061548263" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584626584185" />
+    <state width="1493" height="163" key="GridCell.Tab.1.left" timestamp="1585751673305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="163" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585751673305" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585061548263" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584626584185" />
+    <state width="1493" height="163" key="GridCell.Tab.1.right" timestamp="1585751673305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="163" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585751673305" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585061548263" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584626584185" />
+    <state width="1493" height="260" key="GridCell.Tab.2.bottom" timestamp="1585743244310">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="260" key="GridCell.Tab.2.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585743244310" />
+    <state width="1877" height="347" key="GridCell.Tab.2.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585052131857" />
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584626584186" />
+    <state width="1493" height="260" key="GridCell.Tab.2.center" timestamp="1585743244309">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="260" key="GridCell.Tab.2.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585743244309" />
+    <state width="1877" height="347" key="GridCell.Tab.2.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585052131857" />
+    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1584626584185" />
+    <state width="1493" height="260" key="GridCell.Tab.2.left" timestamp="1585743244309">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="260" key="GridCell.Tab.2.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585743244309" />
+    <state width="1877" height="347" key="GridCell.Tab.2.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585052131857" />
+    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1584626584185" />
+    <state width="1493" height="260" key="GridCell.Tab.2.right" timestamp="1585743244309">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="260" key="GridCell.Tab.2.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585743244309" />
+    <state width="1877" height="347" key="GridCell.Tab.2.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585052131857" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1584626584186" />
+    <state width="623" height="563" key="SwitcherDM" timestamp="1585054667500">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="623" height="563" key="SwitcherDM/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585054667500" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1583854479680" />
+    <state x="2472" y="252" key="Vcs.Push.Dialog.v2" timestamp="1585061381576">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="252" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585061381576" />
+    <state x="2524" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585057392831">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2524" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585057392831" />
+    <state x="2689" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585049999849">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2689" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585049999849" />
+    <state x="398" y="114" width="740" height="596" key="find.popup" timestamp="1584732384712">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="398" y="114" width="740" height="596" key="find.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1584732384712" />
+    <state x="410" y="138" width="700" height="530" key="recent.locations.popup" timestamp="1584731416165">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="410" y="138" width="700" height="530" key="recent.locations.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1584731416165" />
+    <state x="410" y="139" width="700" height="530" key="recent.locations.popup/0.0.1536.824@0.0.1536.824" timestamp="1583246519080" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1583853079984">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1583853079984" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1583844687973">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1583844687973" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/dennis/taskmanager/TaskmanagerTaskTests.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/dennis/taskmanager/TaskmanagerTaskTests.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dennis/taskmanager/Controller/TaskController.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

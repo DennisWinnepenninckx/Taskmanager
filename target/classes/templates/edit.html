@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${page} + ' | Taskmanager'"></title>
+    <link rel="stylesheet" th:href="@{../../css/reset.css}">
+    <link rel="stylesheet" th:href="@{../../css/main.css}">
+</head>
+<body>
+<header th:insert="index.html :: header"></header>
+<main>
+    <form th:action="@{/tasks/editTask}" method="post" th:object="${taskDTO}">
+        <div>
+            <input type="hidden" th:field="*{uuid}" th:value="${taskDTO.uuid}">
+        </div>
+        <div>
+            <label for="title">Title:</label>
+            <input type="text" th:field="*{title}" th:value="${taskDTO.title}">
+            <p th:errors="*{title}"></p>
+        </div>
+        <div>
+            <label for="description">Description: </label>
+            <input type="text" th:field="*{description}" th:value="${taskDTO.description}" />
+            <p th:errors="*{description}"></p>
+        </div>
+        <div>
+            <label for="date">Date: </label>
+            <input type="datetime-local" th:field="*{date}" th:value="${taskDTO.date}">
+            <p th:errors="*{date}"></p>
+        </div>
+        <input type="submit" value="Edit task">
+    </form>
+</main>
+<footer th:insert="index.html :: footer"></footer>
+
+</body>
+</html>

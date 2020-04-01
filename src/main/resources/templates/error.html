@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Error page</title>
+    <link rel="stylesheet" th:href="@{./css/reset.css}">
+    <link rel="stylesheet" th:href="@{./css/main.css}">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/tasks">Overview</a></li>
+            <li><a href="/tasks/new">Add Task</a></li>
+        </ul>
+    </nav>
+    <h1>Taskmanager errorpage</h1>
+</header>
+<main>
+    <h1>Oopsie an error appeared!</h1>
+    <p>It seems like the task you were looking for was not found, what a bummer!</p>
+    <p>Try to make a new task in out <a href="/tasks/new">Add task</a> page</p>
+</main>
+<footer th:insert="index.html :: footer"></footer>
+
+</body>
+</html>
