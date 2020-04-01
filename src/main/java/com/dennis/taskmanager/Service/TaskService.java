@@ -9,8 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.TransactionSystemException;
 
 
-import javax.persistence.EntityNotFoundException;
-import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
@@ -26,7 +24,7 @@ public class TaskService implements Service {
     public List<TaskDTO> getAll() {
 
         return taskRepo.findAll().stream().map(h -> {
-            return makeDTO(h);
+            return makeTaskDTO(h);
         }).collect(Collectors.toList());
     }
 
@@ -61,7 +59,7 @@ public class TaskService implements Service {
         } catch (Exception e) {
             throw new IllegalArgumentException("Task not found");
         }
-        return makeDTO(t);
+        return makeTaskDTO(t);
     }
     @Override
     public void addSubTask(SubTaskDTO subtaskDTO) {
@@ -82,7 +80,7 @@ public class TaskService implements Service {
         return t.getSubTasks()==null?new ArrayList<SubTaskDTO>():t.getSubTasks().stream().map( h -> {return makeSubtaskDTO(h);}).collect(Collectors.toList());
     }
 
-    public TaskDTO makeDTO(Task task){
+    public TaskDTO makeTaskDTO(Task task){
         return new TaskDTO(task.getUuid(),task.getTitle(),task.getDate(),task.getDescription());
     }
     //    public SubTaskDTO(UUID id, UUID parent, String title, String description) {

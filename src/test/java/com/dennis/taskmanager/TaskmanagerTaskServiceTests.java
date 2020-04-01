@@ -92,4 +92,15 @@ public class TaskmanagerTaskServiceTests {
         taskService.removeTask(taskDTO.getUuid());
         assertEquals(size+1, taskService.getAll().size());
     }
+
+    @Test
+    public void testTaskToTaskDTO(){
+        Task task = new Task("Title",future, "Description");
+        TaskDTO taskDTO = taskService.makeTaskDTO(task);
+
+        assertEquals(task.getUuid(), taskDTO.getUuid());
+        assertEquals(task.getTitle(), taskDTO.getTitle());
+        assertEquals(task.getDate(), taskDTO.getDate());
+        assertEquals(task.getDescription(), taskDTO.getDescription());
+    }
 }

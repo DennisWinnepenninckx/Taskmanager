@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99f8fe85-5b9b-4785-bafa-cf7ca855bbbd" name="Default Changelist" comment="" />
+    <list default="true" id="99f8fe85-5b9b-4785-bafa-cf7ca855bbbd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dennis/taskmanager/Service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dennis/taskmanager/Service/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dennis/taskmanager/TaskmanagerTaskServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dennis/taskmanager/TaskmanagerTaskServiceTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -226,7 +229,7 @@
       <workItem from="1585076818192" duration="1010000" />
       <workItem from="1585085927583" duration="20000" />
       <workItem from="1585135449310" duration="786000" />
-      <workItem from="1585735615115" duration="4767000" />
+      <workItem from="1585735615115" duration="5736000" />
     </task>
     <task id="LOCAL-00001" summary="Added DTO">
       <created>1585049856764</created>
