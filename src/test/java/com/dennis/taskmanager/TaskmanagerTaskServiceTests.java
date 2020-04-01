@@ -96,11 +96,20 @@ public class TaskmanagerTaskServiceTests {
     @Test
     public void testTaskToTaskDTO(){
         Task task = new Task("Title",future, "Description");
-        TaskDTO taskDTO = taskService.makeTaskDTO(task);
+        TaskDTO taskDTO2 = taskService.makeTaskDTO(task);
 
-        assertEquals(task.getUuid(), taskDTO.getUuid());
-        assertEquals(task.getTitle(), taskDTO.getTitle());
-        assertEquals(task.getDate(), taskDTO.getDate());
-        assertEquals(task.getDescription(), taskDTO.getDescription());
+        assertEquals(task.getUuid(), taskDTO2.getUuid());
+        assertEquals(task.getTitle(), taskDTO2.getTitle());
+        assertEquals(task.getDate(), taskDTO2.getDate());
+        assertEquals(task.getDescription(), taskDTO2.getDescription());
+    }
+    @Test
+    public void testSubTaskToSubTaskDTO(){
+        SubTask task = new SubTask("Title", "Description");
+        SubTaskDTO SubTaskDTO = taskService.makeSubtaskDTO(task);
+
+        assertEquals(task.getUuid(), SubTaskDTO.getUuid());
+        assertEquals(task.getTitle(), SubTaskDTO.getTitle());
+        assertEquals(task.getDescription(), SubTaskDTO.getDescription());
     }
 }
