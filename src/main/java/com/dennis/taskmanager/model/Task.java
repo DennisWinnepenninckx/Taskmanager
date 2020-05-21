@@ -122,7 +122,7 @@ public class Task {
         if (o == null || getClass() != o.getClass()) return false;
         Task task = (Task) o;
         return Objects.equals(title, task.title) &&
-                Objects.equals(date, task.date);
+                Objects.equals(date, task.date)  &&  Objects.equals(uuid, task.uuid);
     }
 
     @Override

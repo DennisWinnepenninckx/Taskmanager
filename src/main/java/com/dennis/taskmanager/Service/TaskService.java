@@ -19,7 +19,6 @@ public class TaskService implements Service {
     @Autowired
     TaskRepo taskRepo;
 
-
     @Override
     public List<TaskDTO> getAll() {
 
