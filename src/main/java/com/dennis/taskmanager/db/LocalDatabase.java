@@ -12,7 +12,7 @@ public class LocalDatabase {
     HashMap<UUID,Task> tasks;
     public LocalDatabase(){
         tasks = new HashMap<>();
-        Task t = new Task("Make the CSS look decent", LocalDateTime.of(2020,5,5,5,5),"Just make it so we won't puke.");
+        Task t = new Task("Make the CSS look decent", LocalDateTime.of(2020,5,5,5,5),"Desc");
         Task t2 = new Task("Fix proefstage pls", LocalDateTime.of(2020,7,5,5,5),"Contact IT comopanies to fix proefstage.");
         addTask(t);
         addTask(t2);
@@ -36,4 +36,5 @@ public class LocalDatabase {
     public void editTask(UUID id, Task task){
         tasks.get(id).changeEverything(task);
     }
+    public void removeAll(){tasks.clear();}
 }

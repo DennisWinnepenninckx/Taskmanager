@@ -107,7 +107,7 @@ public class TaskDTO {
         if (o == null || getClass() != o.getClass()) return false;
         TaskDTO task = (TaskDTO) o;
         return Objects.equals(title, task.title) &&
-                Objects.equals(date, task.date);
+                Objects.equals(date, task.date) &&  Objects.equals(uuid, task.uuid);
     }
 
     @Override
