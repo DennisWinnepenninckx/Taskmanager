@@ -11,24 +11,24 @@
 <main>
     <form action="/tasks/CreateTask" method="post" th:object="${taskDTO}">
         <div>
-            <label for="title">Title:</label>
+            <label for="title" th:text="#{task.Title} +  ':'"></label>
             <input type="text" th:field="*{title}">
             <p th:errors="*{title}"></p>
 
         </div>
         <div>
-            <label for="description">Description: </label>
+            <label for="description" th:text="#{task.Description} + ':'"></label>
             <input type="text" th:field="*{description}">
             <p th:errors="*{description}"></p>
 
         </div>
         <div>
-            <label for="date">Date: </label>
+            <label for="date" th:text="#{task.Date} + ':'"></label>
             <input type="datetime-local" th:field="*{date}">
             <p th:errors="*{date}"></p>
 
         </div>
-        <input type="submit" value="New task">
+        <input type="submit" th:value="#{send}">
     </form>
     <footer th:insert="index.html :: footer"></footer>
 </main>

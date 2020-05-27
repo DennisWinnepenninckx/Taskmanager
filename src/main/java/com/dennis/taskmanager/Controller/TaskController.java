@@ -38,7 +38,7 @@ public class TaskController {
             model.addAttribute("subTaskDTO", new SubTaskDTO());
             model.addAttribute("Task", taskService.get(UUID.fromString(id)));
             model.addAttribute("subTasks", taskService.getAllSubTask(UUID.fromString(id)));
-            model.addAttribute("page", taskService.get(UUID.fromString(id)).getTitle() + " ");
+            model.addAttribute("page", "task.view");
 
         } catch (Exception e) {
             return "redirect:/error";
@@ -48,7 +48,7 @@ public class TaskController {
 
     @GetMapping("tasks/new")
     public String newTask(Model model) {
-        model.addAttribute("page", "Add Task");
+        model.addAttribute("page", "AddTask");
         model.addAttribute("taskDTO", new TaskDTO());
         return "newTask";
     }
@@ -62,7 +62,7 @@ public class TaskController {
     @PostMapping("/tasks/CreateTask")
     public String addTask(Model model, @ModelAttribute @Valid TaskDTO taskDTO, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
-            model.addAttribute("page", "Add Task");
+            model.addAttribute("page", "AddTask");
             return "newTask";
         }
         taskService.addTask(taskDTO);

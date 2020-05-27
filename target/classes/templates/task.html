@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title th:text="${page} + 'page | Taskmanager'"></title>
+    <title th:text="#{${page}} + ' | Taskmanager'"></title>
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/main.css">
 </head>
@@ -11,29 +11,29 @@
 <main>
     <table id="Desc">
         <tr>
-            <td><b>Title:</b></td>
+            <td><b th:text="#{task.Title} + ':'"></b></td>
             <td th:text="${Task?.title}"></td>
         </tr>
         <tr>
-            <td><b>Description:</b></td>
+            <td><b th:text="#{task.Description} + ':'"></b></td>
             <td th:text="${Task?.description}"></td>
         </tr>
         <tr>
-            <td><b>Due date:</b></td>
+            <td><b th:text="#{task.Date} + ':'"></b></td>
             <td th:text="${Task?.dateString}"></td>
         </tr>
     </table>
     <br><br><br>
-    <h2>Add a subTask!</h2>
+    <h2 th:text="#{newTasks.addNewTask} + ':'"></h2>
     <form th:action="@{/tasks/__${Task.uuid}__/sub/create}" method="post" th:object="${subTaskDTO}">
         <div>
-            <label for="title">Title:</label>
+            <label for="title" th:text="#{task.Title} + ':'"></label>
             <input type="text" th:field="*{title}">
             <p th:errors="*{title}"></p>
 
         </div>
         <div>
-            <label for="description">Description: </label>
+            <label for="description" th:text="#{task.Description} + ':'"></label>
             <input type="text" th:field="*{description}">
             <p th:errors="*{description}"></p>
 
@@ -48,7 +48,7 @@
         </ul>
     </span>
     <span th:if="${#lists.isEmpty(subTasks)}">
-        <p style="font-size: 3rem">No subtasks here</p>
+        <p style="font-size: 3rem" th:text="#{subtasks.noSubtasksFound}"></p>
     </span>
     <footer th:insert="index.html :: footer"></footer>
 
