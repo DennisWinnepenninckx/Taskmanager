@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title th:text="${page} + 'page | Taskmanager'"></title>
+    <title th:text="#{${page}} + ' | Taskmanager'"></title>
     <link rel="stylesheet" th:href="@{../css/reset.css}">
     <link rel="stylesheet" th:href="@{../css/main.css}">
 </head>
@@ -12,13 +12,13 @@
 
     <ul th:each="Task : ${Tasks}">
         <a class="task" th:href="@{/tasks/__${Task.uuid}__}">
-            <li th:text="${Task}"></li>
+            <li th:text="${Task.title} + ': ' + #{due} +' ' + ${Task.dateString}"></li>
         </a>
-        <a class="edit" th:href="@{/tasks/editPage/__${Task.uuid}__}"> Edit</a>
+        <a class="edit" th:href="@{/tasks/editPage/__${Task.uuid}__}" th:text="#{Edit}"></a>
         <hr>
     </ul>
     <span th:if="${#lists.isEmpty(Tasks)}">
-        <p style="font-size: 3rem">No tasks left to do</p>
+        <p style="font-size: 3rem" th:text="#{overview.empty}"></p>
     </span>
 </main>
 <footer th:insert="index.html :: footer"></footer>

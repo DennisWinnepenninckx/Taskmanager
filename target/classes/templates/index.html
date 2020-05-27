@@ -2,32 +2,51 @@
 <html lang="en" xmlns:th="">
 <head>
     <meta charset="UTF-8">
-    <title th:text="${page} + 'page | Taskmanager'"></title>
+    <title th:text="#{${page}} + ' | Taskmanager'"></title>
     <link rel="stylesheet" th:href="@{css/reset.css}">
     <link rel="stylesheet" th:href="@{css/main.css}">
 </head>
 <body>
 <header th:fragemnt="header">
+    <span th:text="#{lang.change}"></span>:
+    <select id="locales">
+        <option value=""></option>
+        <option value="en" th:text="#{lang.eng}"></option>
+        <option value="nl" th:text="#{lang.nl}"></option>
+    </select>
     <nav>
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/tasks">Overview</a></li>
-            <li><a href="/tasks/new">Add Task</a></li>
+            <li><a href="/" th:text="#{Home}"></a></li>
+            <li><a href="/tasks" th:text="#{Overview}"></a></li>
+            <li><a href="/tasks/new" th:text="#{AddTask}"></a></li>
         </ul>
     </nav>
-    <h1 th:text="'Taskmanager '+${page} + 'page'"></h1>
+    <h1 th:text="#{${page}}"></h1>
 </header>
 <main>
     <section id="section">
         <img th:src="@{img/task.png}" alt="TASK" style="float:right;padding-left: 15px;width: 25%">
-        <p>
-            Lorem ipsum dolor sit amet, <b>consectetur</b> adipisicing elit. Commodi eius expedita illo molestias natus nemo odio
-            quos? Debitis, dignissimos dolorum eius enim est exercitationem in, inventore magnam <b>nemo</b> nihil nobis odit
-            officiis, quibusdam quod ratione saepe sint. Adipisci blanditiis dignissimos in molestias odit sequi sint
-            temporibus unde. Ad <b>Lorem.</b> alias aliquid dolores earum eos eum, harum.
+        <p th:text="#{index.welcometext}">
         </p>
     </section>
 </main>
-<footer th:fragment="footer">Dennis Inc.</footer>
+<footer th:fragment="footer">Dennis Inc.
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#locales").change(function () {
+                var selectedOption = $('#locales').val();
+                if (selectedOption != ''){
+                    var url = window.location.href;
+                    if (url.includes("?lang=")){
+                        url = url.replace(/(\?lang=[a-zA-Z][a-zA-Z])/,"");
+                      }
+                    window.location.replace(url + '?lang=' + selectedOption);
+                }
+            });
+        });
+    </script></footer>
+
 </body>
 </html>
